@@ -1,0 +1,72 @@
+.aboutmecontainer {
+    background-color: blue;
+    width: 35%;
+    margin-left: 55%;
+    margin-top: 100px;
+    height: 500px;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+  
+    .chevleft,
+    .chevright {
+      display: none;
+    }
+  
+    &:hover {
+      .chevleft,
+      .chevright {
+        display: block;
+      }
+    }
+  
+    .hovered & {
+      .chevleft,
+      .chevright {
+        display: block;
+      }
+    }
+  
+    div {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  
+    .chevleft {
+      margin-left: 2px;
+      padding: 10px;
+      background: black;
+      opacity: 0.4;
+      border-radius: 9999px;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  
+    .chevright {
+      margin-left: 495px;
+      padding: 10px;
+      background: black;
+      opacity: 0.4;
+      border-radius: 9999px;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  
+    .about-me-pictures {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.1s ease-in-out;
+      pointer-events: none; 
+    }
+  }
+  
