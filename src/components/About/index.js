@@ -79,21 +79,20 @@ const About = () => {
               </h1>
               <p>
                   Hi. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
-                  I was born in Egypt and immigrated to the Raleigh, NC when I was a child. I loved technology since I was a little kid
-                  but was never pulled into the realm of programming until I discovered something: the "Inspect" button on Google Chrome.
-                  Messing around with it, I was enamoured and began learning more about web development. As I began college, I began to
-                  expose myself to different fields of development and learned more about software development, machine learning, and
-                  artificial intelligence.
+                  I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. I loved technology since I was a little kid
+                  but was never pulled into the realm of programming until I discovered something: the <span className='standout-text'>"Inspect"</span> button on Google Chrome.
+                  Messing around with it, I was enamoured and began learning more about <span className='standout-text'>web development</span>. As I began college, I began to
+                  expose myself to different fields of development and learned more about <span className='standout-text'>software development</span>, <span className='standout-text'>machine learning</span>, and <span className='standout-text'>artificial intelligence</span>.
               </p>
               <p>
                   I value spending time with family, friends, and in church. In love with nature, I spend as much time as I can outside. I love
-                  fishing, hiking, canoeing, etc. When I'm craving indoor activities, I am constantly seeking a mental puzzle. You'll find me
+                  fishing, hiking, canoeing, etc. When I'm craving indoor activities, I am constantly seeking a <span className='standout-text'>mental puzzle</span>. You'll find me
                   playing chess, sudoku, or improving my programming knowledge through personal projects. If I'm not at home or somewhere
-                  outside, I'm probably eating (or cooking) or in the gym. One thing I love is volunteer work, so whenever an opportunity arises,
+                  outside, I'm probably eating (or cooking) or in the gym. One thing I love is <span className='standout-text'>volunteer work</span>, so whenever an opportunity arises,
                   I am eager to participate.
               </p>
               <p>
-                  I'm interested in the entire full-stack spectrum and working on ambitious projects with positive people.
+                  I'm interested in the entire <span className='standout-text'>full-stack spectrum</span> and working on ambitious projects with positive people.
               </p>
           </div>
           <div

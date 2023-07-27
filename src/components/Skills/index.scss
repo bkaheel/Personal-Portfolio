@@ -1,0 +1,9 @@
+.standout-link {
+    color: #ffd700;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        color: aqua;
+    }
+}

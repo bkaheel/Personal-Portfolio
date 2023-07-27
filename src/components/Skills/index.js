@@ -1,7 +1,8 @@
 import AnimatedLetters from '../AnimatedLetters';
+import Contact from '../Contact';
 import './index.scss';
 import { useState, useEffect } from 'react';
-import { Typewriter } from 'react-simple-typewriter';
+
 
 const Skills = () => {
 
@@ -26,15 +27,26 @@ const Skills = () => {
 
             </h1>
             <p>
-                Ben is <span><Typewriter
-            words={['brainstorming', 'coding']}
-            loop={5}
-            cursor
-            cursorStyle='|'
-            // typeSpeed={}
-            deleteSpeed={30}
-            delaySpeed={1500}
-          /></span>
+            Throughout my programming journey, embraced a diverse array of languages and technologies. From crafting backend 
+            applications to engaging frontend experiences, I've immersed myself in various tools and frameworks to achieve 
+            remarkable results. <span className='standout-text'>Java</span> remains the stronghold, yet countless 
+            hours dedicated to <span className='standout-text'>Python</span> as well. Great skillset encompassing <span className='standout-text'>HTML</span>, <span className='standout-text'>CSS</span>, <span className='standout-text'>React.js</span>, <span className='standout-text'>TailwindCSS</span>, and much more. 
+            This versatility empowers me to tackle diverse projects with precision and creativity.            
+            </p>
+            <p>
+            Visit my <a 
+                target='_blank' 
+                rel='noreferrer' 
+                href='https://www.linkedin.com/in/benjamin-kaheel/'
+                >
+                    <span className='standout-link'>LinkedIn</span> 
+                </a> profile for more details or just <a 
+                target='_blank' 
+                rel='noreferrer' 
+                href='../contact'
+                >
+                    <span className='standout-link'>contact</span>
+                </a> me. You can also check out my resume at this <span className='standout-link'>link</span>. 
             </p>
             
 
