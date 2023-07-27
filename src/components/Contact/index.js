@@ -2,7 +2,8 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import React, { useEffect, useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
-// import { form } from 'react-router-dom';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+
 
 const Contact = () => {
 
@@ -76,6 +77,28 @@ const Contact = () => {
                         emailjs.init('fC49wFOeRT4TyCV79')
                     </script>
                 </div>
+            </div>
+            <div className='info-map'>
+                Benjamin Kaheel, 
+                <br />
+                North Carolina, 
+                <br />
+                University of North Carolina at Chapel Hill
+                <br />
+            </div>
+            <div className='map-wrap'>
+                <MapContainer center={[30.1393, 31.3245]} zoom={13}>
+                <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                <Marker position={[30.1393, 31.3245]}>
+                    <Popup>Where I was born</Popup>
+                </Marker>
+                <Marker position={[35.785, -78.64]}>
+                    <Popup>Where I live</Popup>
+                </Marker>
+                <Marker position={[35.9105, -79.05035]}>
+                    <Popup>Where I go to school</Popup>
+                </Marker>
+                </MapContainer>
             </div>
         </div>
         
