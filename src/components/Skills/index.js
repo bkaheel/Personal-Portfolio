@@ -55,7 +55,7 @@ const Skills = () => {
                 >
                     <span className='standout-link'>LinkedIn</span> 
                 </a> profile for more details or just <a 
-                target='_blank' 
+                target='_self' 
                 rel='noreferrer' 
                 href='../Contact'
                 >
