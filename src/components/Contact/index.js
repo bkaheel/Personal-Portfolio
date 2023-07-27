@@ -44,7 +44,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I am interest in freelance opportunities. Let me build you a website for your start-up or company. I love working 
+                    I am interest in freelance opportunities. Need to a website for your start-up? I can help! I love working 
                     on ambitious and complex projects. However, if you have another request or question, don't hesitate to contact me 
                     using the form below. 
                 </p>
