@@ -4,7 +4,7 @@
             "cover": "/portfolio/1/project1.png",
             "title": "Personal Portfolio",
             "description": "A personal portfolio built using React and styled with SCSS, drawing inspiration from the stunning portfolio designed by Jacek Jeznach. This project showcases my skills, experiences, and projects in a visually appealing and interactive manner.",
-            "url": "../Home"
+            "url": "../"
         },
         {
             "cover": "/portfolio/1/project4.png",
