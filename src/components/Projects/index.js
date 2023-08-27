@@ -1,6 +1,8 @@
 import './index.scss';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import { render } from '@testing-library/react';
+import portfolioData from '../../data/portfolio.json'
 
 const Projects = () => {
 
@@ -17,6 +19,26 @@ const Projects = () => {
         };
       }, []);
     
+      const renderPortfolio = (portfolio) => {
+        return (
+          <div className='images-container'>
+            {
+              portfolio.map((port, idx) => {
+                return (
+                  <div key={idx} className='image-box'>
+                    <img src={port.cover} alt='portfolio' className='portfolio-image' />
+                    <div className='content'>
+                      <p className='title'>{port.title}</p>
+                      <h4 className='description'>{port.description}</h4>
+                      <button className='btn' onClick={() => window.open(port.url)}>View</button>
+                  </div>
+                  </div>
+                )
+              })
+            }
+          </div>
+        )
+      }
 
     return (
     <>
@@ -27,14 +49,11 @@ const Projects = () => {
             </h1>
             <p>
             Passionately exploring web development and design, I've led projects and handled both front-end and back-end tasks. 
-            Currently building a full-stack application, mastering front-end to back-end communication. Creating a captivating portfolio 
+            Currently building a full-stack application, mastering front-end to back-end communication. Created a captivating portfolio 
             to showcase my journey and accomplishments. Stay tuned for more!
             </p>
-            
-            
-
-            
         </div>
+        <div className='portfolio-block'>{renderPortfolio(portfolioData.portfolio)}</div>
     </div>
     </>
     )

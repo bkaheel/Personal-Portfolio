@@ -96,12 +96,65 @@
       &:hover {
         background: #ffd700;
         color: #333;
-      }
     }
+}
+}
+.picture-container {
+  width: 400px;
+  height: 409px;
+  position: absolute;
+  top: 0;
+  right: 7%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  animation: fadeIn 2s 2.7s backwards;
+
+  .picture {
+    width: 435px;
+    margin-top: -5%;
+    margin-left: -25%;
+    border-radius: 9999px;
+    box-shadow: 15px 40px 60px 25px black;
+    opacity: 1;
+    //animation: ;
+
+  }
+
+  
 }
 
 
-.picture-container {
+
+
+@media screen and (max-width: 1200px) {
+  .tags, .home-page h1:before, .home-page h1:after, .home-page h2:before, .home-page h2:after {
+    display: none;
+  }
+
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 8px;
+      margin-top: 10%;
+    }
+
+    .contact-me-button {
+      float: none; 
+      display: block;
+      margin-left: 10%;
+      width: 125px;
+  
+    }
+  }
+
+
+  
+  .picture-container {
     width: 400px;
     height: 409px;
     position: absolute;
@@ -112,16 +165,161 @@
     margin: auto;
     animation: fadeIn 2s 2.7s backwards;
 
+    .picture {
+      width: 435px;
+      margin-top: -5%;
+      margin-left: 15%;
+      border-radius: 9999px;
+      box-shadow: 15px 40px 60px 25px black;
+      opacity: 1;
+      //animation: ;
+
+    }
+
+  }
+
+  
+}
+
+@media (min-width: 428px) and (max-width: 900px) {
+  .tags, .home-page h1:before, .home-page h1:after, .home-page h2:before, .home-page h2:after {
+    display: none;
+  }
+
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 8px;
+      margin-top: 0%;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 53px;
+      line-height: 53px;
+      letter-spacing: 2px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+    }
+    .contact-me-button {
+      width: 125px;
+      margin: auto;
+      margin-top: 50px;
+      position: relative;
+    }
+        
+  }
 
 
+  
+  .picture-container {
+    width: 400px;
+    height: 409px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    animation: fadeIn 2s 2.7s backwards;
+    justify-content: center;
 
     .picture {
-        width: 435px;
-        margin-top: -5%;
-        margin-left: -25%;
-        border-radius: 9999px;
-        box-shadow: 15px 40px 60px 25px black;
-        opacity: 1;
-        //animation: ;
+      width: 335px;
+      // margin-top: 50%;
+      // margin-left: 15%;
+      border-radius: 9999px;
+      box-shadow: 15px 40px 60px 25px black;
+      opacity: 1;
+      
+
     }
+
+  }
+
+  
+}
+
+@media (min-width: 300px) and (max-width: 428px) {
+  .tags, .home-page h1:before, .home-page h1:after, .home-page h2:before, .home-page h2:after {
+    display: none;
+  }
+
+  .home-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 4px;
+      font-weight: 200px;
+      margin-top: 0%;
+      text-align: center;
+
+      h1 {
+        color: #fff;
+        font-size: calc(42px + 0.390625vw);
+        line-height: 48px;
+        letter-spacing: 2px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+
+    h2 {
+      color: #8d8d8d;
+      margin-top: 55px;
+      margin-left: 5px;
+      font-weight: 400;
+      font-size: calc(9px + 0.390625vw);
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 4.2s backwards;
+  }}
+      
+    .contact-me-button {
+      width: 125px;
+      margin: auto;
+      margin-top: 50px;
+      position: relative;
+    }
+        
+  }
+
+
+  
+  .picture-container {
+    width: 400px;
+    height: 409px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    bottom: 0;
+    // left: auto;
+    margin: auto;
+    animation: fadeIn 2s 2.7s backwards;
+    justify-content: center;
+
+    .picture {
+      position: relative;
+      width: 300px;
+      // margin-top: 50%;
+      // margin-left: 15%;
+      border-radius: 9999px;
+      box-shadow: 15px 40px 60px 25px black;
+      opacity: 1;
+      
+
+    }
+
+  }
+
+  
 }

@@ -47,5 +47,36 @@
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 40px; 
+    
   }
   
+  @media screen and (max-width: 1200px) {
+    .skills-display  {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      // justify-content: center;
+      // align-items: center;
+      // display: flex;
+      // object-fit: cover;
+      // margin-left: 50rem;
+      // margin-top: 50px;
+      margin: auto auto auto auto;
+      
+      
+  
+      
+     }}
+
+     @media (min-width: 300px) and (max-width: 900px) {
+      .skills-display  {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin: auto auto auto auto;
+        
+        
+    
+        
+       }
+      }

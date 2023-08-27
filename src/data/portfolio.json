@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/project1.png",
+            "title": "Personal Portfolio",
+            "description": "A personal portfolio built using React and styled with SCSS, drawing inspiration from the stunning portfolio designed by Jacek Jeznach. This project showcases my skills, experiences, and projects in a visually appealing and interactive manner.",
+            "url": "https://www.google.com"
+        },
+        {
+            "cover": "/portfolio/1/project4.png",
+            "title": "MixMatch",
+            "description": "MixMatch is a music-based social networking application that allows users to see what their friends are listening to and get song recommendations based on popular music within a user's network.",
+            "url": "https://www.google.com"
+        },
+        {
+            "cover": "/portfolio/1/project3.png",
+            "title": "Contagion Simulation",
+            "description": "This exercise is inspired by the Washington Post's article that simulated infectiousness with 2D cells in a graphical visualization. ",
+            "url": "https://www.google.com"
+        }
+    ]
+}

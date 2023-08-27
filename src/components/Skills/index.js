@@ -60,7 +60,11 @@ const Skills = () => {
                 href='../Contact'
                 >
                     <span className='standout-link'>contact</span>
-                </a> me. You can also check out my resume at this <span className='standout-link'>link</span>. 
+                </a> me. You can also check out my resume at this <a 
+                target='_blank' 
+                rel='noreferrer' 
+                href='../../public/BenjaminKaheelCSResume.pdf'
+                ><span className='standout-link'>link</span></a>. 
             </p>
         </div>
         <div className='skills-display'>
