@@ -54,17 +54,13 @@ const Skills = () => {
                 href='https://www.linkedin.com/in/benjamin-kaheel/'
                 >
                     <span className='standout-link'>LinkedIn</span> 
-                </a> profile for more details or just <a 
+                </a> profile for more details or even <a 
                 target='_self' 
                 rel='noreferrer' 
                 href='../Contact'
                 >
                     <span className='standout-link'>contact</span>
-                </a> me. You can also check out my resume at this <a 
-                target='_blank' 
-                rel='noreferrer' 
-                href='../../public/BenjaminKaheelCSResume.pdf'
-                ><span className='standout-link'>link</span></a>. 
+                </a> me for a copy of my resume. 
             </p>
         </div>
         <div className='skills-display'>
