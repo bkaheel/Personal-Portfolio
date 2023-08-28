@@ -5,8 +5,9 @@
     margin-top: 100px;
     height: 500px;
     border-radius: 25px;
-    position: relative;
+    position: fixed;
     overflow: hidden;
+    box-sizing: border-box;
   
     .chevleft,
     .chevright {
@@ -49,11 +50,12 @@
     }
   
     .chevright {
-      margin-left: 98;
+      margin-left: 93%;
       padding: 10px;
       background: black;
       opacity: 0.4;
       border-radius: 9999px;
+      
   
       &:hover {
         opacity: 1;
@@ -103,7 +105,7 @@
     margin: auto;
     justify-content: center;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     .chevright {
       margin-left: 315px;
@@ -127,7 +129,6 @@
     margin: auto;
     justify-content: center;
     display: block;
-    margin-bottom: 15px;
     
     .chevright {
       margin-left: 265px;
