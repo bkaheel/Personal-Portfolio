@@ -79,17 +79,17 @@ const About = () => {
               </h1>
               <p>
                   Hi. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
-                  I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. I loved technology since I was a little kid
-                  but was never pulled into the realm of programming until I discovered something: the <span className='standout-text'>"Inspect"</span> button on Google Chrome.
-                  Messing around with it, I was enamoured and began learning more about <span className='standout-text'>web development</span>. As I began college, I began to
-                  expose myself to different fields of development and learned more about <span className='standout-text'>software development</span>, <span className='standout-text'>machine learning</span>, and <span className='standout-text'>artificial intelligence</span>.
+                  I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. My fascination with technology has been a lifelong companion; 
+                  however, it was the discovery of a seemingly inconspicuous tool that ignited my passion for programming: the "Inspect" button on Google Chrome.
+                  My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool.
+                  Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span>,
+                  <span className='standout-text'>machine learning</span>, and <span className='standout-text'>artificial intelligence</span>.
               </p>
               <p>
-                  I value spending time with family, friends, and in church. In love with nature, I spend as much time as I can outside. I love
-                  fishing, hiking, canoeing, etc. When I'm craving indoor activities, I am constantly seeking a <span className='standout-text'>mental puzzle</span>. You'll find me
-                  playing chess, sudoku, or improving my programming knowledge through personal projects. If I'm not at home or somewhere
-                  outside, I'm probably eating (or cooking) or in the gym. One thing I love is <span className='standout-text'>volunteer work</span>, so whenever an opportunity arises,
-                  I am eager to participate.
+                  Beyond the digital world, I value spending time with family, friends, and in church. I love any actitivies involving being outside - fishing, hiking, canoeing, etc. 
+                  When I'm craving indoor activities, I'm usually seeking a <span className='standout-text'>mental puzzle</span> - chess, sudoku, or improving my programming knowledge 
+                  through personal projects. If not inside, I'm probably eating (or cooking) or in the gym. One thing I love is <span className='standout-text'>volunteer work</span>, so whenever an opportunity arises,
+                  I am eager to participate. In fact, I was in Namibia on a mission trip this summer.
               </p>
               <p>
                   I'm interested in the entire <span className='standout-text'>full-stack spectrum</span> and working on ambitious projects with positive people.
