@@ -16,6 +16,8 @@
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
+
+
   
       &:before {
         content: '<h1>';
@@ -38,6 +40,16 @@
         left: -13px;
         opacity: 0.6;
         display: block;
+      }
+
+      img {
+        width: 62px;
+        margin-right: -8px;
+        margin-bottom: -10px;
+        opacity: 0;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
       }
     }
   

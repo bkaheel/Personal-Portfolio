@@ -7,7 +7,7 @@ import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['I', "'", 'm', ' ', ' ', 'B', 'e', 'n', 'j', 'a', 'm', 'i', 'n', ',']
+    const nameArray = [ 'e', 'n', 'j', 'a', 'm', 'i', 'n', ',']
     const jobArray = ['s', 't', 'u', 'd', 'e', 'n', 't', ' ', ' ', 'a', 't', ' ', ' ', 'U', 'N', 'C', '.']
 
     useEffect(() => {
@@ -29,10 +29,14 @@ const Home = () => {
                     <span className={`${letterClass} _12`}>i</span>
                     <span className={`${letterClass} _13`}>,</span>
                     <br />
+                    <span className={`${letterClass} _14`}>I</span>
+                    <span className={`${letterClass} _15`}>'</span>
+                    <span className={`${letterClass} _16`}>m&nbsp; </span>
 
-                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}></AnimatedLetters>
+                    <img src='benlogo.png' alt='designed B' />
+                    <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={17}></AnimatedLetters>
                     <br />
-                    <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={30}></AnimatedLetters>
+                    <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={25}></AnimatedLetters>
                 </h1>
                 <h2>Aspiring SWE / Full Stack Developer</h2>
                 <Link to='/contact' className='contact-me-button'>CONTACT ME</Link>
