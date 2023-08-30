@@ -82,8 +82,7 @@ const About = () => {
                   I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. My fascination with technology has been a lifelong companion; 
                   however, it was the discovery of a seemingly inconspicuous tool that ignited my passion for programming: the "Inspect" button on Google Chrome.
                   My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool.
-                  Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span>,
-                  <span className='standout-text'>machine learning</span>, and <span className='standout-text'>artificial intelligence</span>.
+                  Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span>.
               </p>
               <p>
                   Beyond the digital world, I value spending time with family, friends, and in church. I love any actitivies involving being outside - fishing, hiking, canoeing, etc. 
