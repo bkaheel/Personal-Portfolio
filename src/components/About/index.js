@@ -83,7 +83,7 @@ const About = () => {
                   however, it was the discovery of a seemingly inconspicuous tool that ignited a subtle passion for programming: the "Inspect" button on Google Chrome.
                   My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool, yet not actually programming.
                   Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span> through 
-                  COMP110: Introduction to Programming & Data Science with Professor Kris Jordan.
+                  COMP110: Introduction to Programming & Data Science with Professor Kris Jordan and loving the course.
               </p>
               <p>
                   Beyond the digital world, I value spending time with family, friends, and in church. I love any actitivies involving being outside - fishing, hiking, canoeing, etc. 
