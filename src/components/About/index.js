@@ -80,15 +80,16 @@ const About = () => {
               <p>
                   Hi. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
                   I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. My fascination with technology has been a lifelong companion; 
-                  however, it was the discovery of a seemingly inconspicuous tool that I loved to tinker with as a kid: the "Inspect" button on Google Chrome.
-                  My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool however, not actually programming. 
-                  Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span> through COMP110 and loving it.
+                  however, it was the discovery of a seemingly inconspicuous tool that ignited a subtle passion for programming: the "Inspect" button on Google Chrome.
+                  My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool, yet not actually programming.
+                  Transitioning into college, I embarked on a journey of exploration across diverse domains of development, immersing myself in the realms of <span className='standout-text'>software development</span> through 
+                  COMP110: Introduction to Programming & Data Science with Professor Kris Jordan.
               </p>
               <p>
                   Beyond the digital world, I value spending time with family, friends, and in church. I love any actitivies involving being outside - fishing, hiking, canoeing, etc. 
                   When I'm craving indoor activities, I'm usually seeking a <span className='standout-text'>mental puzzle</span> - chess, sudoku, or improving my programming knowledge 
                   through personal projects. If not inside, I'm probably eating (or cooking) or in the gym. One thing I love is <span className='standout-text'>volunteer work</span>, so whenever an opportunity arises,
-                  I am eager to participate. In fact, I was in Namibia on a mission trip this summer.
+                  I am eager to participate. In fact, I was in Namibia on a mission trip this summer and I've learned a tremendous amount from this experience. 
               </p>
               <p>
                   I'm interested in the entire <span className='standout-text'>full-stack spectrum</span> and working on ambitious projects with positive people.
