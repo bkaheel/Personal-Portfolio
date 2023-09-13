@@ -23,6 +23,10 @@ import MillieStudy from '../../assets/images/AboutMe/milliestudy.jpeg'
 import NorthHills from '../../assets/images/AboutMe/northhills.jpeg'
 import Photoshoot9th from '../../assets/images/AboutMe/photoshoot.jpeg'
 import TomatoGuac from '../../assets/images/AboutMe/tomatoguac.jpeg'
+import Floor from '../../assets/images/AboutMe/NamibiaFloor.jpeg'
+import Shoulders from '../../assets/images/AboutMe/NamibiaShoulder.jpeg'
+import WashFeet from '../../assets/images/AboutMe/WashingofFeet.jpeg'
+
 
 const About = () => {
 
@@ -31,6 +35,7 @@ const About = () => {
   const [hovered, setHovered] = useState(false);
 
   const Slides = [
+    Shoulders,
     Cactus,  
     Bryan, 
     CamilaEats, 
@@ -38,6 +43,7 @@ const About = () => {
     ChemStudy, 
     ChurchGrad, 
     CookChicken, 
+    Floor,
     DeneshaGrad, 
     DowntownLekel, 
     Egypt, 
@@ -46,6 +52,7 @@ const About = () => {
     Gym, 
     KrisJordan, 
     MillieEats, 
+    WashFeet,
     MillieStudy, 
     NorthHills, 
     Photoshoot9th, 
