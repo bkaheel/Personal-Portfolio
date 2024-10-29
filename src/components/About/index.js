@@ -85,7 +85,7 @@ const About = () => {
                   <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']} idx={15} />
               </h1>
               <p>
-                  Hi. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
+                  Hiiiiiiiiiiiiiiiiii. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
                   I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. My fascination with technology has been a lifelong companion; 
                   however, it was the discovery of a seemingly inconspicuous tool that ignited a subtle passion for programming: the "Inspect" button on Google Chrome.
                   My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool, yet not actually programming.
