@@ -43,12 +43,14 @@ const Skills = () => {
           </h1>
           <p>
             Before I came to UNC and began to take computer science courses, I had never touched any programming languages. Yet, I've learned many different 
-            languages at through coursework and enjoyed it, so much that I picked up more languages and technologies on my own time at home. Given that I'm 
-            a fast-learner, possess experience with problem-solving through my many managment roles, and can manage a significant workload, I have taken on 
+            languages at through coursework and enjoyed it, so much that I picked up more languages and technologies on my own time at home. 
+          </p>
+          <p>
+            Given that I'm a fast-learner, possess experience with problem-solving through my many managment roles, and can manage a significant workload, I have taken on 
             frontend and backend languages and techonologies. I would be even more excited to learn more languages and technologies, expanding my skillset 
             with your company. These are just a few of the programming languages and technologies I have worked with, but there are many more like <span className='standout-text'>Git</span>, <span className='standout-text'>APIs</span>, 
             <span className='standout-text'>TypeScript</span>, etc.         
-            </p>
+          </p>
             <p>
             Visit my <a 
                 target='_blank' 
