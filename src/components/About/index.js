@@ -38,26 +38,16 @@ const About = () => {
     Shoulders,
     Cactus,  
     Bryan, 
-    CamilaEats, 
-    ChaseMirror, 
-    ChemStudy, 
     ChurchGrad, 
-    CookChicken, 
     Floor,
-    DeneshaGrad, 
-    DowntownLekel, 
     Egypt, 
     GoApe, 
     Graduation, 
     Gym, 
-    KrisJordan, 
-    MillieEats, 
     WashFeet,
     MillieStudy, 
     NorthHills, 
     Photoshoot9th, 
-    TomatoGuac, 
-    Kitchen4th
   ];
 
   const previousSlide = () => {
