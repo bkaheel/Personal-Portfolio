@@ -85,7 +85,24 @@ const About = () => {
                   <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']} idx={15} />
               </h1>
               <p>
-                  Hiiiiiiiiiiiiiiiiii. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
+                I was born in Egypt but moved to Raleigh when I was young. Growing up here, I had to help my parents translating and filling out forms. This was hard for me but I would say, that helped me learn English early on. 
+                Seeing my parents work countless hours, as soon as I was able to get a job, I started working to help my parents pay for bills and other expenses. I learned so much like how to work as a team and how to engage 
+                with customers and later on, learned many management and operational skills. 
+              </p>
+              <p>
+                I love spending time with my family and friends and in my church. I've grown up in the same church since I moved to Raleigh and I have many memories there - from traumatizing ones to fantastic ones. I love any 
+                activity involving being outside like fishing and playing basketball but not when its freezing or burning outside. When it is however, I'll be inside playing chess or sudoku, cooking and eating, or in the gym.
+              </p>
+              <p>
+                I love being of service and going to volunteering events. My church hosts a lot of service events and I try to go to as many as possible. The more I've grown and learned about the Coptic Orthodox church and 
+                its history, I have loved my church more and more and have begun a initiative called Thirst Service to facilitate Orthodox Christian dialogue on the side of my studies on university campuses.
+              </p>
+              <p>
+                I am currently a junior studying <span className='standout-text'>computer science</span>. I am looking for a Intern role for <span className='standout-text'>Summer 2025</span>, willing to work on-site or remotely. 
+                Please reach out to me as I'm always interested to learn more about companies and their goals and how I can help them achieve them.
+              </p>
+              {/* <p>
+                Hiiiiiiiiiiiiiiiiii. I'm Benjamin Kaheel, a sophomore majoring in Computer Science at the University of North Carolina at Chapel Hill.
                   I was born in <span className='standout-text'>Egypt</span> and immigrated to the Raleigh, NC when I was a child. My fascination with technology has been a lifelong companion; 
                   however, it was the discovery of a seemingly inconspicuous tool that ignited a subtle passion for programming: the "Inspect" button on Google Chrome.
                   My initial curiosity soon blossomed into a profound interest in <span className='standout-text'>web development</span>, as I delved into the complexicities revealed by this tool, yet not actually programming.
@@ -97,9 +114,9 @@ const About = () => {
                   When I'm craving indoor activities, I'm usually seeking a <span className='standout-text'>mental puzzle</span> - chess, sudoku, or improving my programming knowledge 
                   through personal projects. If not inside, I'm probably eating (or cooking) or in the gym. One thing I love is <span className='standout-text'>volunteer work</span>, so whenever an opportunity arises,
                   I am eager to participate. In fact, I was in Namibia on a mission trip this summer and I've learned a tremendous amount from this experience. 
-              </p>
+              </p> */}
               <p>
-                  I'm interested in the entire <span className='standout-text'>full-stack spectrum</span> and working on ambitious projects with positive people.
+                  I'm interested in the <span className='standout-text'>technical project management</span> and <span className='standout-text'>technical sales</span> and working on ambitious projects with positive people.
               </p>
           </div>
           <div
