@@ -48,9 +48,8 @@ const Projects = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']} idx={15} />
             </h1>
             <p>
-            Passionately exploring web development and design, I've led projects and been a part of others handling the design elements of majority.
-            Beginning to build a full-stack application, mastering front-end to back-end communication. Created a captivating portfolio 
-            to showcase my journey and accomplishments. Stay tuned for more!
+            For the past 3 years, I have been working on coding projects in class and at home. I've been lucky enough to experience both front and backend 
+            work and am confident in my skills. These are some of the projects I have worked on. Visit soon for a new project that will be posted here soon.
             </p>
         </div>
         <div className='portfolio-block'>{renderPortfolio(portfolioData.portfolio)}</div>
