@@ -1,4 +1,4 @@
-$primary-color: aqua;
+$primary-color: #ffd700;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
@@ -48,7 +48,7 @@ textarea {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffd700;
 }
 
 @keyframes App-logo-spin {
@@ -73,6 +73,6 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
-  color: yellow;
+  color: #ffd700;
 
 }
