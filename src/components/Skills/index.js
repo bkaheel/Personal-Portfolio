@@ -63,7 +63,7 @@ const Skills = () => {
                 rel='noreferrer' 
                 href='../Contact'
                 >
-                  <a href='Benjamin_Kaheel_Resume_.pdf'>ressummee</a>
+                  <a href='/assets/Benjamin_Kaheel_Resume_.pdf'>ressummee</a>
                     <span className='standout-link'>contact</span>
                 </a> me for a copy of my resume. 
             </p>
