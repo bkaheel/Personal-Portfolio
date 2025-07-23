@@ -92,8 +92,9 @@ const Experience = () => {
           operations management, and community leadership.
         </p>
       </div>
+      </div>
       {renderExperience()}
-    </div>
+    
   );
 };
 
