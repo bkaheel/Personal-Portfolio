@@ -31,7 +31,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEye} color="#64748b" />
             </NavLink>
 
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="projects-link" to="/projects">
+            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="experience-link" to="/experience">
                 <FontAwesomeIcon icon={faSuitcase} color="#64748b" />
             </NavLink>
 
