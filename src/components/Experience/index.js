@@ -78,8 +78,8 @@ const Experience = () => {
   };
 
   return (
-    <div className='container experience-page'>
-      <div className='text-zone'>
+    <div className="container experience-page">
+      <div className="text-zone">
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
