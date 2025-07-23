@@ -1,9 +1,12 @@
 import './index.scss';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const Experience = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -56,23 +59,53 @@ const Experience = () => {
     }
   ];
 
+  const handleDotClick = (index) => {
+    setCurrentSlide(index);
+  };
+
+  const handlePrevClick = () => {
+    setCurrentSlide((prev) => (prev === 0 ? experiences.length - 1 : prev - 1));
+  };
+
+  const handleNextClick = () => {
+    setCurrentSlide((prev) => (prev === experiences.length - 1 ? 0 : prev + 1));
+  };
+
   const renderExperience = () => {
+    const experience = experiences[currentSlide];
+    
     return (
       <div className='experience-container'>
-        {experiences.map((exp, idx) => (
-          <div key={idx} className='experience-box'>
-            <div className='content'>
-              <h3 className='title'>{exp.title}</h3>
-              <h4 className='company'>{exp.company}</h4>
-              <p className='period'>{exp.period}</p>
-              <ul className='bullets'>
-                {exp.bullets.map((bullet, bulletIdx) => (
-                  <li key={bulletIdx}>{bullet}</li>
-                ))}
-              </ul>
-            </div>
+        <button className="nav-button prev" onClick={handlePrevClick}>
+          <FontAwesomeIcon icon={faChevronLeft} />
+        </button>
+        
+        <div className='experience-box'>
+          <div className='content'>
+            <h3 className='title'>{experience.title}</h3>
+            <h4 className='company'>{experience.company}</h4>
+            <p className='period'>{experience.period}</p>
+            <ul className='bullets'>
+              {experience.bullets.map((bullet, bulletIdx) => (
+                <li key={bulletIdx}>{bullet}</li>
+              ))}
+            </ul>
           </div>
-        ))}
+        </div>
+
+        <button className="nav-button next" onClick={handleNextClick}>
+          <FontAwesomeIcon icon={faChevronRight} />
+        </button>
+
+        <div className="dot-navigation">
+          {experiences.map((_, idx) => (
+            <button
+              key={idx}
+              className={`dot ${idx === currentSlide ? 'active' : ''}`}
+              onClick={() => handleDotClick(idx)}
+            />
+          ))}
+        </div>
       </div>
     );
   };
@@ -92,9 +125,8 @@ const Experience = () => {
           operations management, and community leadership.
         </p>
       </div>
-      </div>
       {renderExperience()}
-    
+    </div>
   );
 };
 

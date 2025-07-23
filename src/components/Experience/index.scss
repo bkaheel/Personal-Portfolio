@@ -56,13 +56,68 @@
 }
 
 .experience-container {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
-  width: 100%;
-  max-width: 1200px;
+  width: 40%;
+  margin-left: 55%;
+  min-height: 400px;
+
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #ffd700;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.prev {
+      left: -40px;
+    }
+
+    &.next {
+      right: -40px;
+    }
+  }
+
+  .dot-navigation {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255, 215, 0, 0.3);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &.active {
+        background: #ffd700;
+        transform: scale(1.2);
+      }
+
+      &:hover {
+        background: rgba(255, 215, 0, 0.8);
+      }
+    }
+  }
 }
 
 .experience-box {
@@ -71,9 +126,9 @@
   padding: 20px;
   border-radius: 10px;
   border-left: 5px solid #ffd700;
-  margin-left: 55%;
   transition: all 0.3s ease-in-out;
-  width: 40%;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
   
   &:hover {
     transform: translateY(-5px);
